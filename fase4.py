@@ -1,4 +1,4 @@
- ==================================================
+# ==================================================
 # SOFTWARE FJ - FASE 4 / ACTIVIDAD 4
 # Archivo: fase4.py
 # Descripción: Sistema de reservas, alquiler y asesorías
@@ -736,6 +736,7 @@ while True:
         ejecutar_simulacion()
     # Si no es 1-8, opción inválida
     else:
+        # Muestra mensaje y vuelve al menú, sin salir del programa
         print("Opción inválida")
         break
     else:
